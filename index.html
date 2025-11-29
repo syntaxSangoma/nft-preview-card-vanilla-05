@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nkosinathi Dhanda">
+    <meta name="description" content="A clean, responsive NFT Preview Card component built using vanilla HTML and CSS.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Preview Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <main class="nft-card">
+        <a href="#">
+            <figure class="nft-card__nft-hero">
+                <img class="nft-card__nft-image" src="./images/image-equilibrium.jpg" alt="image-equilibrium"
+                    width="604" height="604">
+
+                <figure class="nft-card__hover-icon responsive-image">
+                    <img src="./images/icon-view.svg" alt="icon-view" width="48" height="48">
+
+                    <figcaption class="offscreen">icon-view</figcaption>
+                </figure>
+
+                <figcaption class="offscreen">image-equilibrium</figcaption>
+            </figure>
+        </a>
+
+        <h1 class="nft-card__title"><a href="#">Equilibrium #3429</a></h1>
+
+        <section class="nft-card__content">
+            <p class="nft-card__description">
+                Our Equilibrium collection promotes balance and calm.
+            </p>
+
+            <div class="nft-card__nft-info">
+                <div class="nft-card__currency">
+                    <figure class="nft-card__eth-icon">
+                        <img src="./images/icon-ethereum.svg" alt="icon-ethereum" width="11" height="18">
+                        <figcaption class="offscreen">icon-ethereum</figcaption>
+                    </figure>
+
+                    0.041 ETH
+                </div>
+
+                <div class="nft-card__time">
+                    <figure class="nft-card__clock-icon">
+                        <img src="./images/icon-clock.svg" alt="icon-clock" width="17" height="17">
+                        <figcaption class="offscreen">icon-clock</figcaption>
+                    </figure>
+
+                    3 days left
+                </div>
+            </div>
+
+            <div class="nft-card__line"></div>
+
+            <div class="nft-card__author-info">
+                <figure class="nft-card__avatar">
+                    <img src="./images/image-avatar.png" alt="image-avatar" width="132" height="132">
+
+                    <figcaption class="offscreen">image-avatar</figcaption>
+                </figure>
+
+                <p class="nft-card__author-name">
+                    Creation of <a href="#">Jules Wyvern</a>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
