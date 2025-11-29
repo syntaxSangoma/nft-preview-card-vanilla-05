@@ -114,12 +114,11 @@ a:focus {
 }
 
 .nft-card__title {
-    color: var(--WHITE);
     font: var(--HEADING-SHARED);
     margin-bottom: .75rem;
 }
 
-.nft-card__title a:visited {
+.nft-card__title a:any-link {
     color: var(--WHITE);
 }
 
@@ -197,11 +196,7 @@ a:focus {
     color: var(--SOFT-BLUE);
 }
 
-.nft-card__author-name a {
-    color: var(--WHITE);
-}
-
-.nft-card__author-name a:visited {
+.nft-card__author-name a:any-link {
     color: var(--WHITE);
 }
 
